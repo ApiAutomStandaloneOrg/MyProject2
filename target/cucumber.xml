@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.499">
+    <testcase classname="To validate &amp; performed test scenario for login as data driven." name="To get login window" time="0.116">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on amazon home page..............................................undefined
+When I click on  Sign-In options............................................skipped
+Then I should see Sign-In window............................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="To validate &amp; performed test scenario for login as data driven." name="To complete Sign-In proccess" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Sign-In page..................................................undefined
+When I enter Email address & click on Continue button.......................skipped
+Then I should see next window...............................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
